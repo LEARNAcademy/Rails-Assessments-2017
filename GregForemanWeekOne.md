@@ -78,7 +78,7 @@ You write the CSS
 <article>
 <footer> ]
 
-[Googled Answer]
+[A semantic element clearly describes its meaning to both the browser and the developer.]
 
 
 #### 6. The steps to pushing changes to a new git repo are laid out below - but they are out of order. Put them in the correct order. Feel free to try it out on your computer to confirm that you are right.
