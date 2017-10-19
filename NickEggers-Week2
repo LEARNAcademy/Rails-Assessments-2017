@@ -1,0 +1,80 @@
+### Rails Course Assessment
+
+## Week 2 Assessment
+
+Try your best to answer each question on your own before looking up the answer online. Once you're done writing your first answer, you can google the question and write the best answer you find.
+
+#### 1. Describe what "if" does in Javascript.
+
+If is a function that returns a Boolean. You can expand off a IF function with a else, else if, and more.
+
+
+#### 2. What is a closure, and what is it used for?
+[Your Answer]
+function that has access to outer functions in which it is not nested in.
+
+[Googled Answer]
+A closure is an inner function that has access to the outer (enclosing) function's variables—scope chain. The closure has three scope chains: it has access to its own scope (variables defined between its curly brackets), it has access to the outer function's variables, and it has access to the global variables.
+
+#### 3. Write a function that takes one number as a parameter and decides if that number is divisble by three or not. If it is, print the number and "is divisible by three". If it is not, print that the number "is not divisble by three".
+
+If (x % 3 = 0) {
+ console.log( x +" is divisible by three");
+ } else {
+ console.log( x +" is not divisble by three")
+ }
+
+
+#### 4. What is JSON?
+
+//Your Answer
+syntax that allows users to transmit data objects
+
+//Googled Answer
+JSON is a syntax for storing and exchanging data.
+JSON is text, written with JavaScript object notation.
+
+#### 5. Write about yourself in an object, giving at least three properties of you. Then store your object in a variable with your name.
+var nick = {name:"Nick", age:"27", height:"73in"}
+
+#### 6. Explain what an "event" is (within the context of a webpage).
+
+//Your Answer
+An event is when something interactive occurs on the page. This can have a JS action attached to it which acts as a event listener and will execute once the specified event takes place.
+//Googled Answer
+
+#### 7. What's the difference between =, ==, and === in JavaScript?
+
+//Your Answer
+= is used for declaring. == is equal but not as strict in terms of data types as ===
+
+//Googled Answer
+
+
+#### 8. Given the array below, create two console.logs that print the 2nd and 5th elements respectively. Try to access the values using a different syntax each time.
+
+```js
+
+var newArray = [1, "4", "echo", true, "green"]
+
+console.log(newArray[1][4]);
+```
+
+#### 9. List the different kinds of javascript loops and describe what they do.
+
+//Your Answer
+
+//Googled Answer
+for - loops through a block of code a number of times
+for/in - loops through the properties of an object
+while - loops through a block of code while a specified condition is true
+do/while - also loops through a block of code while a specified condition is true
+
+#### 10. How would you explain "scope" in javascript?
+
+//Your Answer
+scope is like how something is able to be viewed within the file. There is Global and local scope. global will allow you to see it throughout the entire whereas local scope is going to be limited to the area in which you enclose it.
+//Googled Answer
+
+
+
