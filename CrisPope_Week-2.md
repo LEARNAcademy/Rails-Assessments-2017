@@ -42,7 +42,7 @@ function isDivByThree(x){
 var Cris = {
   eyesColor: "blue",
   hairColor: "blond",
-  height: 1,76,
+  height: 1.76,
   isLearning: true  
 }
 ```
