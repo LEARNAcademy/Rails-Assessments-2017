@@ -9,7 +9,7 @@ Try your best to answer each question on your own before looking up the answer o
 
 It makes a group less likely to become stuck and become completely unable to make progress on a project since more minds are thinking about solutions. It also allows more people to think big-picture about a program at once as a relatively smaller percentage of the team will be forced to engage with the detail-oriented task of writing the code out at any given time.
 
-A disadvantage is that more people means more opinions, and when there are disagreements within a group about how to tackle a problem, time-manage, or do any  number of things, someone is going to be unhappy when they get out-voted. More voices also may make it likely for the group to get stuck on a tangent. For instance, during our day of mob programming my group opted to spend a not-insignificant amount of time white-boarding solutions to a problem we had already solved because someone speculated that we might think of a "cleaner" way of doing something.
+A disadvantage is that more people means more opinions, and when there are disagreements within a group about how to tackle a problem, time-manage, or do any  number of things, someone is going to be unhappy when they get out-voted. More voices also may make it likely for the group to get stuck on a tangent. For instance, during our day of mob programming my group opted to spend a not-insignificant amount of time white-boarding solutions to a problem we had already solved (rather than moving on to problems that had not been solved) because someone speculated that we might think of a "cleaner" way of doing something.
 
 #### 2. What is jQuery and what are the two ways you can add it to your project?
 
