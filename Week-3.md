@@ -26,6 +26,7 @@ Include jQuery from a CDN, like Google
 
 $(document).ready(function() {
     <JavaScript goes here>
+});
 
 #### 4. In a project, what piece do the HTML and CSS form (think MVC roles)? Explain a little bit about this piece or "layer".
 
