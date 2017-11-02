@@ -19,7 +19,7 @@ A closure is a persistent scope which holds on to local variables even after the
 
 
 #### 3. Write a function that takes one number as a parameter and decides if that number is divisble by three or not. If it is, print the number and "is divisible by three". If it is not, print that the number "is not divisble by three".
-
+```js
 function(x) {
   if x % 3 == 0 {
     console.log(x + "is divisible by 3!")
@@ -27,6 +27,7 @@ function(x) {
     console.log(x + " is NOT divisible by 3!")
   }
 }
+```
 
 
 #### 4. What is JSON?
@@ -36,9 +37,9 @@ JSON is a file storage type.
 In computing, JavaScript Object Notation or JSON, is an open-standard file format that uses human-readable text to transmit data objects consisting of attribute–value pairs and array data types.
 
 #### 5. Write about yourself in an object, giving at least three properties of you. Then store your object in a variable with your name.
-
+```js
 var ryan = {age:18, gender:"Male", favColor:"Red"};
-
+```
 #### 6. Explain what an "event" is (within the context of a webpage).
 
 Events are actions that can be listened for to execute other things.
