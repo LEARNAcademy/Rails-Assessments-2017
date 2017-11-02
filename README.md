@@ -28,5 +28,5 @@
 
 1. Copy the url for the LEARNAcademy assessments repo
 2. `git checkout` into master on your machine
-3. Run `git add upstream learn_assessments_url`
-4. Run `git pull upstream` to get remote changes
+3. Run `git remote add upstream https://github.com/LEARNAcademy/Rails-Assessments-2017.git`
+4. Run `git pull upstream master` to get remote changes
