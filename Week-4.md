@@ -6,12 +6,17 @@ Try your best to answer each question on your own before looking up the answer o
 
 
 #### 1. What is a method in Ruby and how are they different or similar to functions in JavaScript?
+<<<<<<< HEAD
 A method is a function that is built into a class. Objects of that class then have access to that function. They operate similarly to functions in JavaScript in that if a function is defined within a limited scope, that function can then only be called within that scope. Some methods are built into Ruby and are usable at all times. Unlike in JavaScript, these methods are not, strictly speaking, global. Instead, these methods generally belong to the class "Class," and all other classes inherit from "Class." You can see what classes a method has access to by calling .methods on that class.
+=======
+
+>>>>>>> ae8e0fb69040d11c1192e07a4fdf65bab7e218b3
 
 #### 2.What does it mean that a class inherits from another class? Try to explain Ruby inheritance.
 
 
 [Your Answer]
+<<<<<<< HEAD
 If I define class Outer,
 and then define class Inner < Outer
 Inner is a child class of Outer and by default will inherit all of Outer's methods. This means that if Outer has a method Outer.a_method, I can also call a_method on Inner class as well without defining it in Inner. If Outer is a child class of the Most-Outer class, Inner also inherits and has access to Most-Outer's methods.
@@ -41,6 +46,30 @@ class Example
     else
       "Another day."
     end
+=======
+
+
+[Googled Answer]
+
+
+#### 3. Look at this horrible code, and then fix it to be good ruby code. 
+
+``` ruby
+class example
+  def initialize(day)
+    @day=day
+  end
+  
+  def Say_hi
+    if(day == "Friday"){
+      puts "TGIF!"
+    }
+    elseif(day == "Monday"){
+      puts "Its monday again"
+    }
+    else
+      puts "another day"
+>>>>>>> ae8e0fb69040d11c1192e07a4fdf65bab7e218b3
   end
 end
 ```
@@ -49,6 +78,7 @@ end
 #### 4. What is rspec and what is the process for writing basic tests in RSpec?
 
 //Your Answer
+<<<<<<< HEAD
 RSpec is a framework for testing Ruby code and making sure it does what it is supposed to (an example of Behavior-Driven Development). The process is to write the tests in the RSpec file before you write the code in your main file, and then refer to the tests when writing the code to make sure it passes the tests. For instance, you may write tests that create objects and then make sure they behave the way you want them to. Then you would write Ruby code defining the classes that these test objects will belong to.
 
 When you are first writing an RSpec test, it is for a limited portion of code, with the expectation that the test will initially fail. You write a "describe" block in English how you expect the code to behave, and then you write an "it" block with how the code should actually behave. You can then change your Ruby code to make it pass that test. Then you write a failing test for the next portion of the code you intend to write, and continue incrementally.
@@ -65,20 +95,30 @@ Run your test suite. Repeat steps 3 and 4 until all tests pass.
 Go back and refactor your new code, making it as simple and clear as possible while keeping the test suite green.This workflow implies a "step zero": taking time to think carefully about what exactly it is we need to build, and how. When we always start with the implementation, it is easy to lose focus, write unnecessary code, and get stuck.
 
 Behavior-driven development is a concept built on top of TDD. The idea is to write tests as specifications of system behavior. It is about a different way of approaching the same challenge, which leads us to think more clearly and write tests that are easier to understand and maintain. This in turn helps us write better implementation code.
+=======
+
+//Googled Answer
+>>>>>>> ae8e0fb69040d11c1192e07a4fdf65bab7e218b3
 
 
 #### 5. Use Ruby to loop over this array, multiplying each element by 2.(You can try it out in irb first to test your solution)
 
+<<<<<<< HEAD
 ``` ruby
 tempArray = [1, 2, 6, 9, 3, 21]
 tempArray.each do |el|
 p el * 2
 end
 ```
+=======
+tempArray = [1, 2, 6, 9, 3, 21]
+
+>>>>>>> ae8e0fb69040d11c1192e07a4fdf65bab7e218b3
 
 #### 6. From all the built in Ruby methods we've seen in class this week, choose three that you think are particularly helpful and create examples to show each of them below. (wrap your code in three backticks ``` code ``` to have it be read as code)
 
 //Your Answer
+<<<<<<< HEAD
 1) .to_i allows you to take a number that is in the form of a string (such as one entered by a user) and do mathematical evaluations on it. This is useful because when you "get" any kind of text input from a user, it will be in the format of a string. .to_i can turn that string into something that Ruby recognizes as a number.
 Example:
 ```ruby
@@ -136,6 +176,18 @@ belongs_to
 has_and_belongs_to_many
 has_one :through
 belongs_to :through
+=======
+
+//Googled Answer
+
+
+#### 7. Name three possible relationships between ruby objects? 
+
+//Your Answer
+
+//Googled Answer
+
+>>>>>>> ae8e0fb69040d11c1192e07a4fdf65bab7e218b3
 
 #### 8. What do we call the #{} convention used below? What is it accomplishing?
 
@@ -144,6 +196,7 @@ x = 1022
 puts "I am printing a random number #{x}"
 ```
 
+<<<<<<< HEAD
 This is string interpolation. It is a quick way to put the Ruby variable X into a string. You can also use concatenation like you would in JavaScript but it is more cumbersome.
 
 #### 9. How do you feel about testing right now? What potential pros/cons/barriers/advantages do you see to implementing BDD in your own code?
@@ -155,11 +208,25 @@ So far I like it because it makes you break a task into manageable chunks so you
 Advantage: You'll know when you're done with a feature and when to call a story "done" as far as code complete and know you've satisfied the business requirements. You will be guided right from the beginning on where to start with your test driving of your code for a new feature. When you run your tests, they'll most likely be segregated nicely by use case thus telling you a story on what each set of tests are testing.
 
 Disadavantage:  Because communications between the user and the developer are essential, if the user if not available, it will be difficult to work past ambiguities and questions generated by the user stories.
+=======
+#### 9. How do you feel about testing right now? What potential pros/cons/barriers/advantages do you see to implementing BDD in your own code?
+
+//Your Answer
+
+//Googled Answer
+
+>>>>>>> ae8e0fb69040d11c1192e07a4fdf65bab7e218b3
 
 #### 10. What is an instance variable in Ruby? How is it different from a normal, local variable?
 
 //Your Answer
+<<<<<<< HEAD
 If I have an instance variable defined in a method, every other method within that scope can access that variable. In addition, every object of the class in which the variable is defined can have its own version of that variable. By contrast, if you define a regular variable inside of a method, the scope of the variable is only inside that method and you can't use it anywhere else, even inside the same object.
 
 //Googled Answer
 A local variable can be used only within the method in which it is defined (or, when the variable is defined at the top level, only outside of any method). An instance variable can be used from any method that is called on the same instance.
+=======
+
+//Googled Answer
+
+>>>>>>> ae8e0fb69040d11c1192e07a4fdf65bab7e218b3
