@@ -1,6 +1,6 @@
 # Code Review
 
-### This week's assessment will be a Ruby on Rails code review. Create this rails project and upload it to github, and I will go through the code and send you back a message with a code review.
+### This week's assessment will be a Ruby on Rails code review. Create a new sub folder to hold your rails project inside your fork of the rails assessment repo, and create a pull request with the finished project. I will go through your code and send you back a code review.
 
 ## The Project
 
