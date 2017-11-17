@@ -27,7 +27,7 @@ Try your best to answer each question on your own before looking up the answer o
 //Googled Answer
 
 
-#### 5. We learned that JQuery is a javascript library. What do you think a library is? Is it different than a framework? Do 5-10 min of googling to find these anwers. 
+#### 5. We learned that JQuery is a javascript library. What do you think a library is? Is it different than a framework? Do 5-10 min of googling to find these answers. 
 
 
 #### 6. What are wireframes? Explain when and why you might use them.
