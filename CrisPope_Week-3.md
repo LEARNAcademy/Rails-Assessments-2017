@@ -7,7 +7,7 @@ Try your best to answer each question on your own before looking up the answer o
 
 #### 1. What was your impression of the mob programmimg day? Did you notice any pros or cons of this strategy?
 
-The mob programming day was interesting. I appreciate that LEARN is exposing us to different strategies for collaboration so we know what to expect. Pros: We could work faster through issues since there were more of us thinking about solutions. Makes us all be engaged and focused on the task increasing productivity. Cons: It was harder to agree on ideas and on the code itself. You get less time driving and it's more difficult to think about the solutions you might have since everything is more fast paced. 
+The mob programming day was interesting. I appreciate that LEARN is exposing us to different strategies for collaboration so we know what to expect. Pros: We could work faster through issues since there were more of us thinking about solutions. Makes us all be engaged and focused on the task increasing productivity. Cons: It was harder to agree on ideas and on the code itself. You get less time driving and it's more difficult to think about the solutions you might have since everything is more fast paced.
 
 #### 2. What is jQuery and what are the two ways you can add it to your project?
 
@@ -27,19 +27,19 @@ $(document).ready(function(){
 
 });
 ```
-#### 4. In a project, what piece do the HTML and CSS form (think MVC roles)? Explain a little bit about this piece or "layer". 
+#### 4. In a project, what piece do the HTML and CSS form (think MVC roles)? Explain a little bit about this piece or "layer".
 
-//Your Answer HTML and CSS are the view part of the MVC. They are what is visible to the user and what the user can interact with. 
+//Your Answer HTML and CSS are the view part of the MVC. They are what is visible to the user and what the user can interact with.
 
-//Googled Answer  The “View” is what is presented to the User. This is usually HTML, CSS and Javascript. 
+//Googled Answer  The “View” is what is presented to the User. This is usually HTML, CSS and Javascript.
 
-A View is a collection of classes representing the elements in the user interface (all of the things the user can see and respond to on the screen, such as buttons, display boxes, and so forth). Usually there are many (possibly nested) Views in a single application. A view can query the model, but it is not supposed to change the state. 
+A View is a collection of classes representing the elements in the user interface (all of the things the user can see and respond to on the screen, such as buttons, display boxes, and so forth). Usually there are many (possibly nested) Views in a single application. A view can query the model, but it is not supposed to change the state.
 
-#### 5. We learned that JQuery is a javascript library. What do you think a library is? Is it different than a framework? Do 5-10 min of googling to find these anwers. 
+#### 5. We learned that JQuery is a javascript library. What do you think a library is? Is it different than a framework? Do 5-10 min of googling to find these answers. 
 
 A library is different from a framework. Bootstrap and jQuery are libraries. Rails, Flask and Django are frameworks. Frameworks can include libraries.
 
-Libraries have predefined classes, methods and objects that we can call on and reuse. They usually relate to one specific area or piece of functionality. You call a library function, it executes some code and then control is returned to your code. 
+Libraries have predefined classes, methods and objects that we can call on and reuse. They usually relate to one specific area or piece of functionality. You call a library function, it executes some code and then control is returned to your code.
 
 A framework is a structure or skeleton of your app and comes with predefined control flow with empty spaces for the developer to fill and extend.
 
@@ -49,9 +49,9 @@ A framework is a structure or skeleton of your app and comes with predefined con
 
 //Googled Answer Wireframing is a way to design a website service at the structural level. A wireframe is commonly used to lay out content and functionality on a page which takes into account user needs and user journeys. Wireframes are used early in the development process to establish the basic structure of a page before visual design and content is added.
 
-#### 7. What do we call the code layer that makes it possible for the user to interact with the application? 
+#### 7. What do we call the code layer that makes it possible for the user to interact with the application?
 
-//Your Answer That layer is the Controller. It lets the user interact with our model and render different views. It would be methods and functions that define the functionality of the app. 
+//Your Answer That layer is the Controller. It lets the user interact with our model and render different views. It would be methods and functions that define the functionality of the app.
 
 //Googled Answer The “Controller” is what connects the “View” and the “Model”. So when a User requests something from the database, the “Controller” takes that request from the “View” and sends it to the “Model”. It’s the brains of the application, and ties together the model and the view.
 
@@ -83,7 +83,7 @@ $(document).ready(function(){
 
 #### 9. What do we call the code layer responsible for handling and storing the data and logic?
 
-//Your Answer The model layer stores the data and accesses it through queries. There are relational databases such as SQL and no-database or no-SQL models such as MongoDB and CouchDB. 
+//Your Answer The model layer stores the data and accesses it through queries. There are relational databases such as SQL and no-database or no-SQL models such as MongoDB and CouchDB.
 
 //Googled Answer The “Model” is how the website talks to the database. Model code typically reflects real-world things. This code can hold raw data, or it will define the essential components of your app. The model manages fundamental behaviors and data of the application. It can respond to requests for information, respond to instructions to change the state of its information, and even to notify observers in event-driven systems when information changes. This could be a database, or any number of data structures or storage systems. In short, it is the data and data-management of the application.
 
